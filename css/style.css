@@ -99,7 +99,7 @@ body {
 
 .intro-img::before {
   position: absolute;
-  content: url(/image/intro-sunny.svg);
+  content: url(../image/intro-sunny.svg);
   top: -28px;
   left: -28px;
 }
@@ -126,7 +126,7 @@ body {
 
 .intro-text span:first-of-type::before {
   position: absolute;
-  content: url(/image/intro-line.svg);
+  content: url(../image/intro-line.svg);
   left: -5px;
 }
 
@@ -296,7 +296,7 @@ body {
 
 .subscribe::before {
   position: absolute;
-  content: url(/image/subscribe-sunny.svg);
+  content: url(../image/subscribe-sunny.svg);
   bottom: -47px;
   left: -43px;
 }
