@@ -1,0 +1,299 @@
+@media (max-width: 1300px) {
+    .header {
+        padding: 43px 20px;
+    }
+
+    .intro {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .episodes-top-wrapper {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .episodes-block {
+        margin: 0 20px;
+    }
+
+    .episodes-right-content-title {
+        font-size: 50px;
+        line-height: 65px;
+        width: 600px;
+        letter-spacing: 2.56px;
+    }
+
+    .episodes-right-content-describtion {
+        width: 600px;
+    }
+
+    .host {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .subscribe {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer {
+        padding: 100px 20px 120px;
+        justify-content: space-between;
+    }
+
+
+    .fotter-logo-img {
+        margin-right: 60px;
+    }
+}
+
+
+
+@media (max-width: 1250px) {
+    .intro-text {
+        width: 390px;
+        margin-bottom: 45px;
+    }
+
+}
+
+
+
+@media (max-width: 1150px) {
+    .intro-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-info {
+        padding-top: 40px;
+        padding-left: 0;
+    }
+
+    .intro-text {
+        width: 650px;
+    }
+
+    .episodes-right-content-title {
+        font-size: 35px;
+        line-height: 50px;
+        width: 500px;
+        letter-spacing: 2px;
+    }
+
+    .episodes-right-content-describtion {
+        width: 500px;
+    }
+
+    .host {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+
+    .host-info {
+        width: 650px;
+        padding: 0 0 20px;
+    }
+
+    .host-info-arrow {
+        transform: rotate(90deg);
+    }
+
+
+    .subscribe {
+        width: 650px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .supscribe-title {
+        width: 100%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .subscribe-form {
+        width: 100%;
+    }
+
+    .subscribe-form-btn {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .episodes-block-left-img-1050 {
+        display: block;
+    }
+
+    .episodes-block-left-img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 980px) {
+    .episodes-right-content-title {
+        font-size: 30px;
+        line-height: 45px;
+        width: 350px;
+        letter-spacing: 1.5px;
+    }
+
+    .episodes-right-content-describtion {
+        width: 350px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 17px;
+        margin-bottom: 20px;
+    }
+
+    .episodes-right-content-number {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .intro-img {
+        padding: 0 20px;
+    }
+
+    .intro-text {
+        font-size: 50px;
+        width: 390px;
+    }
+
+    .footer-list:nth-of-type(2) {
+        margin-left: 30px;
+    }
+
+    .footer-podcast {
+        display: none;
+    }
+
+    .footer-podcast-adaptive {
+        display: flex !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .episodes-top-wrapper {
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .episodes-title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .episodes-block-left-img-1050 {
+        display: none;
+    }
+
+    .episodes-block-right-content {
+        margin-left: 0px;
+    }
+
+    .episodes-right-content-describtion {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 690px) {
+    .host-info {
+        width: 100%;
+    }
+
+    .host-info-text {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 590px) {
+    .header-nav {
+        width: 300px;
+    }
+
+    .episodes-right-content-title {
+        width: 100%;
+    }
+
+    .subscribe {
+        padding: 60px 30px 75px;
+    }
+
+    .supscribe-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .intro-text span:first-of-type::before {
+        display: none;
+    }
+
+    .episodes-right-content-number {
+        margin-top: 15px;
+    }
+
+    .intro-text {
+        width: 100%;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .intro-info {
+        padding-top: 50px;
+    }
+
+    .episodes-block {
+        margin: 0 10px;
+        padding: 20px;
+    }
+
+    .episodes-right-content-title {
+        width: 100%;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .episodes-right-content-describtion {
+        font-size: 14px;
+    }
+
+}
